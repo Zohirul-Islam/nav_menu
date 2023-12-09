@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_menu{
+    background-color: black;
+
+}
+.nav_menu ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_menu ul li{
+    list-style-type: none;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+.nav_menu ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+   padding: 5px 10px;
+    
+}
+.nav_menu ul li a:hover{
+    background-color: blueviolet;
+}
